@@ -9,4 +9,6 @@ function promise(){
 	})
 }
 
-div.innerHTML=promise();
+	promise().then((data)=>{
+		div.innerHTML=data;
+	});
